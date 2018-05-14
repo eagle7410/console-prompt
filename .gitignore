@@ -1,52 +1,42 @@
-# Ignore list for Eagle, a PCB layout tool
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Backup files
-*.s#?
-*.b#?
-*.l#?
-*.b$?
-*.s$?
-*.l$?
 
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
 
-# Autorouter files
-*.pro
-*.job
+# Bower dependency directory (https://bower.io/)
+bower_components
 
-# CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+# Dependency directories
+node_modules/
 
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.gpi
-*.xln
+# Optional npm cache directory
+.npm
 
-*.drd
-*.drd.*
+# Optional eslint cache
+.eslintcache
 
-*.s#*
-*.b#*
+# Optional REPL history
+.node_repl_history
 
-*.info
+# Output of 'npm pack'
+*.tgz
 
-*.eps
+# Yarn Integrity file
+.yarn-integrity
 
-# file locks introduced since 7.x
-*.lck
+# dotenv environment variables file
+.env
+
+# Storm
+.idea/
+
+# Mac
+.DS_Store

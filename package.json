@@ -1,0 +1,29 @@
+{
+  "name": "console-prompt-eagle",
+  "version": "1.0.0",
+  "description": "Prompt in console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagle7410/console-prompt.git"
+  },
+  "keywords": [
+    "console",
+    "prompt",
+    "question",
+    "ask"
+  ],
+  "dependencies": {
+    "console-color": "git+https://github.com/eagle7410/console-color.git"
+  },
+  "engines" : { "node" : ">=8.3.0" },
+  "author": "Igor Stcherbina <verycooleagle@gmail.com> (http://github.com/eagle7410)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eagle7410/console-prompt/issues"
+  },
+  "homepage": "https://github.com/eagle7410/console-prompt#readme"
+}

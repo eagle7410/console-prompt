@@ -1,3 +1,36 @@
+# console-prompt
+console dialog with user.
+
+## Install
+
+``` bash
+npm i console-prompt-eagle --save
+```
+## Example use.
+
+``` node
+const ConsolePrompt = require('console-prompt-eagle');
+const prompt = new ConsolePrompt();
+
+void async function () {
+	let name = await prompt.ask('Enter you name');
+
+	console.log(`You enter name ${name}`);
+
+	process.exit();
+}();
+```
+
+Result exec this code.
+
+![Result exec this code](https://raw.githubusercontent.com/eagle7410/console-prompt/master/example-result.jpg)
+
+## Authors and developers.
+
+Author and developer [Igor Stcherbina](https://github.com/eagle7410)
+
+## License
+
 MIT License
 
 Copyright (c) 2018 [Igor Stcherbina](https://github.com/eagle7410)
