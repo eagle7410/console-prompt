@@ -18,7 +18,14 @@ class ConsolePrompt {
 
 		return new Promise((ok,bad)=> {
 			stdin.addListener('data', answer => {
-				ok(answer.toString());
+
+				answer = answer.toString();
+
+				if (answer.length && answer.charAt(answer.length-1) === '\n') {
+					answer = answer.slice(0,-1)
+				}
+
+				ok(answer);
 			});
 
 			stdin.addListener('error', bad);
